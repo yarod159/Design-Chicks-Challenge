@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <Navbar/>
-      <div style={{
+       <div style={{
         backgroundImage: `url(${Lol})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
@@ -16,7 +16,7 @@ function Home() {
       }}>
         <Filter/>
         <Card/>
-      </div>
+    </div>
     </div>
   );
 }

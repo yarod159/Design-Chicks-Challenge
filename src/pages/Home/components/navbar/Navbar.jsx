@@ -3,10 +3,15 @@ import LogoCG from "../../../../assets/logo/chicks-logo.svg";
 import Arrow from "../../../../assets/icon-arrow/arrow-down.svg";
 import Cart from "../../../../assets/icon/cart.svg";
 import Profile from "../../../../assets/icon/profile.png";
+import MenuIcon from "../../../../assets/icon/menu-hamburguer.png";
+
 function Navbar() {
   return (
     <nav className="nav-container">
       <div className="nav-wrapper  flex-row">
+        <div className="nav-hamburger">
+          <img src={MenuIcon} alt="" />
+        </div>
         <div className="nav-logo">
           <img src={LogoCG} alt="" />
         </div>
@@ -14,12 +19,10 @@ function Navbar() {
           <div className="nav-item-left ">
             <ul className=" flex-row">
               <li>
-                <a href="/">CURRENCY</a>
-                
-                  {" "}
-                  <span>
+                <a href="/">CURRENCY</a>{" "}
+                <span>
                   <img src={Arrow} alt="" />
-                  </span>
+                </span>
               </li>
               <li>
                 <a
