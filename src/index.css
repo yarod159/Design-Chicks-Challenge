@@ -19,8 +19,25 @@
  
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+}
 
 h1, h3, h4 {
-    color: var(--font);
-  }
-  
+  color: var(--font);
+}
+
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+button{
+  border: none;
+}
