@@ -1,0 +1,237 @@
+/*-------------------------------CARD TOP----------------*/
+.container-cardt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 195px;
+  height: 44px;
+  position: relative;
+  padding: 25px 10px 20px 10px;
+  background-color: #34384B;
+}
+.cardtop-on {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.cardtop-on-intern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.cardtop-circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--font-green); /* Cambia esto al color que desees */
+}
+
+.onsale {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--font);
+}
+
+.stock {
+  font-size: 10px;
+  color: var(--font-green);
+  background: transparent;
+  border-radius: 3px;
+  width: auto;
+  height: auto;
+  border: solid 1px var(--font-green);
+  padding: 4px 9px;
+}
+
+.cardtop-quantity {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0 10px;
+  background-color: #3d4862;
+  color: #ffffff;
+}
+
+.cardtop-quantity > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardtop-arrow {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardtop-arrow > img {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.cardtop-arrow img:first-child {
+  transform: rotate(180deg);
+}
+
+/*-------------------------------CARD MIDDLE----------------*/
+
+.container-cardt-middle {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 10px 5px 10px;
+    background-color: #34384B;
+    width: 195px;
+    gap: 0.5rem;
+}
+
+.container-cardt-middle img:first-child{
+    width: 54px;
+    height: 54px;
+}
+
+.cardt-middle-title-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.cardt-middle-title-img h2{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.cardt-middle-title-img img{
+   width: 25px;
+   height: auto;
+}
+
+
+/*-------------------------------CARD BOTTOM----------------*/
+
+.container-card-bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    background-color: #34384B;
+    width: 195px;
+}
+
+.card-bottom-price{
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--font);
+    font-size: 12px;   
+    font-weight: 700;
+    min-height: 20px;
+   
+}
+
+.card-bottom-price p:nth-child(2){
+    font-weight: 300;
+    color: var(--font-gris);
+   
+    
+}
+
+.card-bottom-detail{
+    font-size: 10px;
+    color: var(--font-gris);
+    padding-top: 5px;
+}
+
+
+.card-bottom-price p:nth-child(2) {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+
+.card-bottom-detail{
+    line-height: 1.8;
+}
+
+.card-bottom-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px ;
+}
+
+.card-bottom-button button{
+   position: relative;
+   width: 83px;
+   height: 40px;
+   border: none;
+   border-radius: 5px;
+   font-size: 13px;
+   font-weight: 300;
+}
+
+.card-bottom-cart{
+    position: absolute;
+    left: 48px;
+    top: 7px;
+    border-radius: 5px;
+    display: flex;
+    width: 30px;
+    height: 27px;
+    background-color:var(--btn-blue-sm);
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bottom-rigth > button> div:nth-child(1){
+  position: absolute;
+  top: 12px;
+  left: 10px;
+    
+}
+
+.first-button{
+    background-color: #373c50;
+    cursor: pointer;
+    color: #CCCDD1;
+    letter-spacing: 1.1px;
+    
+}
+
+.card-bottom-rigth button{
+
+    background-color: var(--btn-blue-bg);
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
+/*-------------------------------cardTemplate----------------*/
+
+.cardTemplate-container{
+    background-color:#34384B; ;
+    padding: 10px 5px;
+    border-radius: 5px;
+    height: 280px;
+   
+}
+
+
+  

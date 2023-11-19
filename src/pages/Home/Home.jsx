@@ -1,10 +1,11 @@
 import Navbar from "./components/navbar/Navbar";
 import Filter from "./components/filter/Filter";
-import Card from "./components/card/Card";
+import Cards from "./components/card/Cards";
+import Payments from "./components/payments/Payments";
 import Lol from "./../../assets/background/LoL.png";
 function Home() {
   return (
-    <div>
+    <div style={{backgroundColor: '#37384B'}} >
       <Navbar/>
        <div style={{
         backgroundImage: `url(${Lol})`,
@@ -12,11 +13,13 @@ function Home() {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100%',
-        height: '100vh'
+        minHeight: '100vh'
       }}>
         <Filter/>
-        <Card/>
+        <Cards/>
+        <Payments/>
     </div>
+    
     </div>
   );
 }

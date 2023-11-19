@@ -2,12 +2,15 @@
 
 :root {
   --primary: #303141;
-  --secondary: #34384b;
-  --font:#fff;
+  --secondary: #3f465e;
+  --font: #fff;
+  --font-gris: #cbcbcf;
   --btn-blue-bg: #5762d5;
   --btn-blue-sm: #454da8;
   --btn-green-bg: #39e29d;
   --shadow: 0 15px 15px -2px #33334b;
+  --border-blue: #4c6085;
+  --font-green: rgb(57, 226, 157);
 }
 
 * {
@@ -16,7 +19,6 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
- 
 }
 
 a {
@@ -28,27 +30,28 @@ li {
   list-style-type: none;
 }
 
-h1, h3, h4 {
+h1,
+h3,
+h4 {
   color: var(--font);
 }
 
-
-.flex-row{
+.flex-row {
   display: flex;
   flex-direction: row;
 }
 
-.flex-column{
+.flex-column {
   display: flex;
   flex-direction: column;
 }
 
-button{
+button {
   border: none;
+  background-color: transparent;
 }
 
-input{
+input {
   background-color: transparent;
   border: none;
 }
-
