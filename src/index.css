@@ -5,6 +5,7 @@
   --secondary: #3f465e;
   --font: #fff;
   --font-gris: #cbcbcf;
+  --font-gris-oscuros:#82838e;
   --btn-blue-bg: #5762d5;
   --btn-blue-sm: #454da8;
   --btn-green-bg: #39e29d;
@@ -29,6 +30,11 @@ a {
 li {
   list-style-type: none;
 }
+
+ul {
+	list-style: none;
+}
+
 
 h1,
 h3,

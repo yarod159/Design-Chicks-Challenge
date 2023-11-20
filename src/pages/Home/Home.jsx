@@ -2,6 +2,7 @@ import Navbar from "./components/navbar/Navbar";
 import Filter from "./components/filter/Filter";
 import Cards from "./components/card/Cards";
 import Payments from "./components/payments/Payments";
+import Footer from "./components/footer/Footer";
 import Lol from "./../../assets/background/LoL.png";
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         <Filter/>
         <Cards/>
         <Payments/>
+        <Footer/>
     </div>
     
     </div>
