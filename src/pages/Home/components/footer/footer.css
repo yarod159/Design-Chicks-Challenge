@@ -1,5 +1,7 @@
 .container-footer {
   background-color: var(--primary);
+  min-height: 50vh;
+  margin: 0 auto;
 }
 
 .wrapper-footer-social-networks {
