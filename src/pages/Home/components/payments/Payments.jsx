@@ -15,7 +15,7 @@ function Payments() {
         
           <div className="payments-banks">
             <img  src={Visa} alt="" />
-            <img  src={Mastercard} alt="" />
+            <img  style={{height:"50px",width:"80px"}} src={Mastercard} alt="" />
             <img  src={America} alt="" />
             <img  src={Skrill} alt="" />
           </div>
