@@ -186,6 +186,16 @@
    font-weight: 300;
 }
 
+.card-bottom-left button:hover{
+ background-color: var(--primary);
+}
+
+.card-bottom-rigth button:hover{
+  background-color: var(--btn-blue-sm);
+ }
+ 
+
+
 .card-bottom-cart{
     position: absolute;
     left: 48px;

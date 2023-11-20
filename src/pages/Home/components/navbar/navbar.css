@@ -89,7 +89,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
+
+  .nav-item-right ul li button:hover {
+  background-color:#56f8b7;
+  }
+
 
   .nav-item-right ul li:nth-child(2) span img {
     position: relative;

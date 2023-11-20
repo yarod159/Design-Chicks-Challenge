@@ -11,16 +11,27 @@ function Footer() {
     <div className="container-footer">
       <div className="wrapper-footer-social-networks ">
         <div>
-          <img src={Fc} alt="" />
+          <a href="https://www.facebook.com/Chicksgroup">
+            {" "}
+            <img src={Fc} alt="" />
+          </a>
         </div>
         <div>
-          <img src={Ig} alt="" />
+          <a href="https://www.instagram.com/chicksgold/">
+            {" "}
+            <img src={Ig} alt="" />
+          </a>
         </div>
         <div>
-          <img src={Tw} alt="" />
+          <a href="https://twitter.com/chicksgold">
+            {" "}
+            <img src={Tw} alt="" />
+          </a>
         </div>
         <div>
-          <img src={Discord} alt="" />
+          <a href="https://discord.com/invite/chicksgold">
+            <img src={Discord} alt="" />
+          </a>
         </div>
       </div>
 
@@ -77,13 +88,13 @@ function Footer() {
         </div>
         <div className="footer-col footer-trust">
           <img src={Trust} alt="" />
-          <p>Trustpilot Reviews</p>
+          <a href="https://www.trustpilot.com/">Trustpilot Reviews</a>
         </div>
       </div>
 
       <div className="wrapper-footer-reserved">
         <div>
-          <p>© 2017 - 2020 Chicksgold.com.</p> 
+          <p>© 2017 - 2020 Chicksgold.com.</p>
         </div>
         <div>All Rights Reserved.</div>
       </div>

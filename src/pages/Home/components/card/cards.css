@@ -24,6 +24,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  
+}
+
+.template-cards-top img:last-child{
+  cursor: pointer;
 }
 
 .template-cards-top:first-child {
