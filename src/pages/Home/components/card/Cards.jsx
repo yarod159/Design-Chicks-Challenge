@@ -9,6 +9,7 @@ function Cards() {
   const [selectedButton, setSelectedButton] = useState(1);
 
   const buttons = [1, 2, 3, 4, '...', 11];
+  
   return (
     <div className="template-cards-container">
       <div className="template-cards-wrapper">

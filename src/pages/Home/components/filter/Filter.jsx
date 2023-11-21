@@ -29,7 +29,7 @@ function Filter() {
           <div className="filter-Price-Type  flex-row  filter-arrow ">
             <div className="filter-bag-price filter-br filter-arrow  flex-row ">
               <img src={Bag} alt="" />
-              <div >
+              <div>
                 <span> <small style={{color:"#9699A6"}}>Price </small>  <br/></span>
                 <span>All</span>
               </div>

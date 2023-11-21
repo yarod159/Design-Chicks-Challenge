@@ -7,17 +7,29 @@
   padding-top: 130px;
 }
 
+.filter-wrapper {
+  width: 100%;
 
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-input > div {
+  width: 380px;
+}
 
 .filter-title {
   font-size: 20px;
   letter-spacing: 0.9px;
-  
 }
 
 .filter-input {
+  /*
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;*/
+
+  display: flex;
+  flex-direction: row;
   gap: 17px;
   padding: 15px 50px 0 0;
 }
@@ -38,6 +50,10 @@
   margin: 10px;
 }
 
+.filter-input .filter-input-search {
+  width: 70%;
+}
+
 .filter-input-search img {
   width: 28px;
   height: 18px;
@@ -49,7 +65,6 @@
   cursor: pointer;
 }
 
-.filter-input-search input,
 .filter-input-game input {
   width: 100%;
   font-weight: 500;
@@ -99,100 +114,59 @@
   font-size: 14px;
 }
 
-@media (max-width: 1223px) {
-  .filter-container {
-    padding-top: 35px;
-  }
-
-  .filter-title {
-    padding-left: 19px;
-    font-size: 16px;
-  }
-
-  .filter-input {
-    grid-template-columns: 1fr;
-    padding: 15px 20px;
-  }
-
-  .filter-input-search input,
-  .filter-input-game input,
-  .filter-bag-price div input {
-    width: 936px;
-    margin: 0 auto;
-    max-width: 100%;
-    padding: 10px 30px;
-  }
-
- 
-
-  
-}
-@media (max-width: 1022px) {
-  .filter-input {
-    padding: 10px 0;
-  }
-
-  .filter-title {
-    position: relative;
-    left: -5px;
-    padding-left: 5px;
-    font-size: 15px;
-  }
-
-  .filter-input-search,
-  .filter-input-game {
-    width: 800px;
-    padding: auto;
-  }
-
-  .filter-Price-Type {
-    display: flex;
-    width: 800px;
-  }
-
+@media (max-width: 1275px) {
   .filter-wrapper {
-    width: 800px;
+    margin: 0 140px;
+    display: inline-block;
+    
+    min-width: 650px; 
   }
-}
-
-@media (max-width: 810px) {
-  .filter-input {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0;
-    justify-content: center;
-    align-items: center;
+  .filter-input .filter-input-search {
+    width: 100%;
   }
 
   .filter-title {
-    display: flex;
-    flex-direction: column;
+    margin: 0 80px;
+  }
+
+  .filter-input-game img:nth-of-type(2) {
+    position: relative;
+    left: -20px;
+  }
+
+  .filter-input > div {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .filter-input {
    
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
     justify-content: center;
     align-items: center;
-    position: relative;
-    left: -5px;
-    padding-left: 5px;
-    font-size: 15px;
-  }
 
-  .filter-input-search,
-  .filter-input-game {
-    width: 370px;
-    padding: auto;
-  }
-
-  .filter-Price-Type {
-    display: flex;
-    width: 370px;
-  }
-
-  .filter-wrapper {
-    width: 800px;
+    margin: 0 80px;
   }
 }
 
-/*
-.filter-wrapper {
-  width: 370px;
-}*/
+@media (max-width: 683px) {
+
+  .filter-wrapper {
+    margin: 0 140px;
+    display: inline-block;
+    
+    min-width: 380px; 
+  }
+  .filter-input {
+    margin: 0 0.01%;
+  }
+
+  .filter-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

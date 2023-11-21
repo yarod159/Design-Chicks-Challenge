@@ -64,6 +64,9 @@
   font-size: 15px;
 }
 
+
+
+
 /*------------------------------------midle------------------------------------------------*/
 
 .template-cards-middle > div {
@@ -111,13 +114,25 @@
 
 @media only screen and (max-width: 1275px) {
   .template-cards-wrapper {
-    margin: 0px 100px;
+    margin: 0px 20px;
+    width: 800px;
   }
+ 
 }
+
+  @media only screen and (max-width: 988px) {
+    .template-cards-wrapper {
+      margin: 0px 100px;
+      padding: 20px;
+      width: 500px;
+    }
+  }
+  
 
 @media only screen and (max-width: 450px) {
   .template-cards-wrapper {
     margin: 0px 100px;
     padding: 20px;
+   
   }
 }
